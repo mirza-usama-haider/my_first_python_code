@@ -20,12 +20,57 @@
 #age = 2021 - int(birth_year)
 #print(age)
 
-##--------------------ADD----------
+##---------------------------------------------------ADD----------
+#################
+#
+#str()
+#bool()
+#int()
+#float()
+#
+#################
 
-first_number = input("First Number: ")
 
-second_number = input("Second Number: ")
 
-sum = float(first_number) + float(second_number)
+#first_number = input("First Number: ")
 
-print("Sum: " + str(sum))
+#second_number = input("Second Number: ")
+
+#sum = float(first_number) + float(second_number)
+
+#print("Sum: " + str(sum))
+
+#---------------------------------------------------------------
+
+#motto = "Life is Short"
+
+#print(motto.upper())
+
+#print(motto.lower())
+
+#print(motto.find("Life"))
+
+#print(motto.find("Happiness"))
+
+#print(motto.replace("Short","Full of Suffering"))
+
+#print("Life"  in motto)
+
+#print("Happiness"  in motto)
+
+#---------------------------------------------------------------
+
+
+#---------------Weight conversion----------------------------------
+
+weight = input("Weight: ")
+weight = float(weight)
+choice = input("Kg or Lb: ")
+
+if choice == 'k' or choice == 'K':
+    weight *= 2.2046
+    print("Weight in Lb : " + str(weight))
+elif choice == 'l' or choice == 'L':
+    weight /=2.2046
+    print("Weight in Kg : " + str(weight))
+
